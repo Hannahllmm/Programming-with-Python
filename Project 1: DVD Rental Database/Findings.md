@@ -4,7 +4,9 @@
 ## Does the length of a film title affect the number of times a film is rented?
 
 ### Findings
-![image](https://github.com/Hannahllmm/DVD-Rental-Database/assets/39679731/20acc91e-c865-472c-90cb-b1cdcb944e80)
+
+![image](https://github.com/Hannahllmm/Programming-with-Python/assets/39679731/f19b503d-f03e-4146-983b-435815ced33f)
+
 
 It could be said that the shortest film titles result in less rentals, however the variance between data points is too small to draw a conclusion. To explore this further we could test this query on a larger data sample, or we could split the title length into smaller subdivisions. We could also approach this question from a slightly different angle, as shown in the next slide.
 
@@ -33,7 +35,7 @@ Because I split the length of the film title into quartiles, there were 250 film
 
 
 ### Findings
-![image](https://github.com/Hannahllmm/DVD-Rental-Database/assets/39679731/43753c2a-c14c-48d6-8646-e2cf508f5ce7)
+![image](https://github.com/Hannahllmm/Programming-with-Python/assets/39679731/dcabe5a7-e157-405a-b470-e65a03a84966)
 
 We can see there appears to be no correlation between a films title length and the number of times it is rented. There are two noticeable outliers, a title length of 23 and 27 characters. This is probably because there are few films with this length of title, so a very popular or unpopular film will have more impact on the average. For example, Arachnophobia Rollercoaster is the only film with 27 characters in its name and it happens to be a popular film.
 
@@ -65,7 +67,7 @@ In this query I used a FULL OUTER JOIN because if a film had never been rented, 
 ## Who are the 10 customers that have rented the most films?
 
 ### Findings
-![image](https://github.com/Hannahllmm/DVD-Rental-Database/assets/39679731/d9156586-256e-4255-afa3-598f94ff92eb)
+![image](https://github.com/Hannahllmm/Programming-with-Python/assets/39679731/d2c269a6-e15e-42d3-ba2c-2d16f3b98b6b)
 
 We can see Eleanor Hunt is the most frequent customer. She has rented 46 films, with Karl Seal closely following, having rented 45 film.
 
@@ -84,7 +86,7 @@ LIMIT 10;
 
 ## Looking at the top 100 most frequent customers, and the film category they each rented the most from, which category was the most popular?
 ### Findings
-![image](https://github.com/Hannahllmm/DVD-Rental-Database/assets/39679731/c2a77237-1aa6-40a6-95fc-ade6593b9e70)
+![image](https://github.com/Hannahllmm/Programming-with-Python/assets/39679731/082f162c-f16e-4ac0-9702-199e7a3994b3)
 
 It’s clear that the most popular category among the top100 customers is Animation. There are 16 categories overall, so all categories were the most popular for at least one top 100 customer, with horror being the least popular. It is worth noting that although we looked at the most popular category of film for each of the top 100 customers, some customers had more than one category they rented the most from. For example Barry Lovelace rented 4 animation films and 4 games, so both of these are counted. The information in this chart could be useful if the rental companies wanted to create a promotional offer, for example half price on animation rentals. Frequent customers are more likely to make the most of promotional offers than one off customers.
 
