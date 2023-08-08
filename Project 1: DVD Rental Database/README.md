@@ -8,7 +8,9 @@
 ***
 
 ## Summary
-This was the first project as part of the Programming for Data Science Nanaodegree with Udacity. I investigated a database related to DVD rentals. I wrote SQL code to run SQL queries to answer questions about the database. I then used Power BI to visualise this data.
+This was the first project as part of the Programming for Data Science Nanaodegree with Udacity. I investigated a database related to DVD rentals. I wrote SQL code to run SQL queries to answer questions about the database. I then used Power BI to visualise this data. This is the entity relationship diagram for the DVD Rental database:
+![image](https://github.com/Hannahllmm/Programming-with-Python/assets/39679731/c7b3158f-8eb7-41d3-9e1a-742ae20efd82)
+
 
 ## Questions Posed
 1. Does the length of a film title affect the number of times a film is rented?
